@@ -1,0 +1,41 @@
+{
+  "name": "typescript-nodejs-sendgrid",
+  "version": "1.0.0",
+  "description": "Email service layer for a Node.js application using TypeScript and SendGrid",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tsc && mocha --recursive dist/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blove/typescript-nodejs-sendgrid.git"
+  },
+  "keywords": [
+    "typescript",
+    "node",
+    "sendgrid"
+  ],
+  "author": "Brian Love",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blove/typescript-nodejs-sendgrid/issues"
+  },
+  "homepage": "https://github.com/blove/typescript-nodejs-sendgrid#readme",
+  "dependencies": {
+    "q": "^1.4.1",
+    "sendgrid": "^4.8.2"
+  },
+  "devDependencies": {
+    "@types/chai": "^3.4.35",
+    "@types/mocha": "^2.2.40",
+    "@types/node": "^7.0.8",
+    "@types/q": "0.0.33",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "mocha-typescript": "^1.0.23",
+    "typescript": "^2.2.1"
+  }
+}
